@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="FreeCodeCamp, Portfolio, Webpage, Front-End, Developer">
+		<meta name="description" content="FreeCodeCamp exercise - build a person portfolio webpage using HTML, CSS, Bootstrap">
+		<meta name="author" content="Dominik Szewczyk">
+		
+		<title>FreeCodeCamp | Build a Person Portfolio Webpage</title>		
+		
+		<link rel="icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+				
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="20">
+		
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Brand</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="main-navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#intro">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<section id="intro">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 intro-text">
+						<div class="col-md-6 col-md-offset-1">
+							<p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+							<hr/>
+							<h3>Web Developer - User Experiece Designer - Graphic Artist</h3>
+						</div>
+						<div class="col-md-4">
+							<div class="author"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="portfolio">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 portfolio-text">
+						<h1>portfolio</h1>
+						<hr/>
+						<div class="col-md-5 col-md-offset-1">
+							<div class="thumbnail flex realization1">
+								<div class="description">
+									<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="thumbnail flex realization2">
+								<div class="description">
+									<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							<div class="thumbnail flex realization3">
+								<div class="description">
+									<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="thumbnail flex realization4">
+								<div class="description">
+									<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							<div class="thumbnail flex realization5">
+								<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="thumbnail flex realization6">
+								<div class="description">
+									<a href="#" class="button"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 contact-text">
+						<h1>contact me</h1>
+						<hr/>
+						<div class="col-md-5 col-md-offset-1">
+							<form id="ContactForm" role="form" action="" method="post" class="text-left">
+								<div class="form-group">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" id="mail" name="mail" placeholder="Email Address">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+								</div>
+								<div class="text-center">
+									<button type="submit" id="submit_post" value="Post" class="btn btn-default">send</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-5">
+							<p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+							<p><strong>I promise to reply A.S.A.P.</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer id="footer">
+			<div class="container-fluid">
+				<div class="row text-center first">
+					<div class="col-md-4 col-md-offset-2">
+						<h1>About this Page</h1>
+						<p>Made with <a href="getbootstrap.com">Bootstrap</a> and <a href="http://fontawesome.io/">FontAwesome</a><br/>by <span>Dominik Szewczyk</span></p>
+					</div>
+					<div class="col-md-4">
+						<h1>Around the Web</h1>
+						<a class="button" href="#" data-toggle="tooltip" data-placement="bottom" title="facebook">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						</a>
+						<a class="button" href="#" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+							<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+						</a>
+						<a class="button" href="#" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+							<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+						</a>
+						<a class="button" href="#" data-toggle="tooltip" data-placement="bottom" title="CodePen">
+							<i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div class="row text-center second">
+					<p>Dominik Szewczyk © 2016. All Rights Reversed</p>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>
