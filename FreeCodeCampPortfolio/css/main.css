@@ -74,7 +74,7 @@ hr {
 	font-size: 24px;
 }
 #intro .intro-text .author {
-	background-image: url(/img/author.jpg);
+	background-image: url(../img/author.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -101,7 +101,7 @@ hr {
 	height: 240px;
 	background-color: rgb(0, 0, 0);
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	border: none;
 	opacity: 0.7;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -135,22 +135,22 @@ hr {
 	transition: all 0.3s ease-in-out;
 }
 #portfolio .portfolio-text .realization1 {
-	background-image: url("/img/realize1.jpeg");
+	background-image: url("../img/realize1.jpeg");
 }
 #portfolio .portfolio-text .realization2 {
-	background-image: url("/img/realize2.jpeg");
+	background-image: url("../img/realize2.jpeg");
 }
 #portfolio .portfolio-text .realization3 {
-	background-image: url("/img/realize3.jpeg");
+	background-image: url("../img/realize3.jpeg");
 }
 #portfolio .portfolio-text .realization4 {
-	background-image: url("/img/realize4.jpeg");
+	background-image: url("../img/realize4.jpeg");
 }
 #portfolio .portfolio-text .realization5 {
-	background-image: url("/img/realize5.jpeg");
+	background-image: url("../img/realize5.jpeg");
 }
 #portfolio .portfolio-text .realization6 {
-	background-image: url("/img/realize6.jpg");
+	background-image: url("../img/realize6.jpg");
 }
 @media (max-width: 480px) {
 	#portfolio .portfolio-text .thumbnail {
